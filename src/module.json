@@ -39,7 +39,21 @@
       "path": "languages/en.json"
     }
   ],
-  "packs": [],
+  "packs": [
+    {
+      "name": "additional-icons",
+      "label": "Addtional Icons",
+      "path": "packs/pizza-shared-items.db",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "NONE",
+        "TRUSTED": "NONE",
+        "ASSISTANT": "OWNER"
+      },
+      "module": "additional-icons",
+      "flags": {}
+    }
+  ],
   "systems": [],
   "scripts": [],
   "esmodules": ["module.js"],
