@@ -42,8 +42,8 @@
   "packs": [
     {
       "name": "additional-icons",
-      "label": "Addtional Icons",
-      "path": "packs/pizza-shared-items.db",
+      "label": "Additional Icons",
+      "path": "packs/additional-icons",
       "type": "Item",
       "ownership": {
         "PLAYER": "NONE",
@@ -51,7 +51,8 @@
         "ASSISTANT": "OWNER"
       },
       "module": "additional-icons",
-      "flags": {}
+      "flags": {},
+      "system": "dnd5e"
     }
   ],
   "systems": [],
