@@ -51,8 +51,6 @@ npm install
 npm run dev
 ```
 
-## npm build scripts
-
 ### build
 
 `build` will build and set up a symlink between `dist` and your `dataPath`.
@@ -61,12 +59,12 @@ npm run dev
 npm run build
 ```
 
-### build-watch
+### build:watch
 
-`build-watch` will build and watch for changes, rebuilding automatically.
+`build:watch` will build and watch for changes, rebuilding automatically.
 
 ```bash
-npm run build-watch
+npm run build:watch
 ```
 
 ### prettier-format
@@ -77,7 +75,7 @@ npm run build-watch
 npm run-script prettier-format
 ```
 
-### lint and lint:fix
+### lint
 
 `lint` launch the eslint process based on the configuration [here](./.eslintrc.json)
 
@@ -85,10 +83,36 @@ npm run-script prettier-format
 npm run-script lint
 ```
 
+### lint:fix
+
 `lint:fix` launch the eslint process with the fix argument
 
 ```bash
 npm run-script lint:fix
+```
+
+### build:json
+
+`build:json` unpack LevelDB pack on `src/packs` to the json db sources in `src/packs/_source`very useful for backup your items and manually fix some hard issue with some text editor
+
+```bash
+npm run-script build:json
+```
+
+### build:clean
+
+`build:clean` clean packs json sources in `src/packs/_source`. NOTE: usually this command is launched after the command `build:json` and after make some modifications on the json source files with some text editor, but before the `build:db`
+
+```bash
+npm run-script build:clean
+```
+
+### build:db
+
+`build:db` packs the json db sources in `src/packs/_source` to LevelDB pack on `src/packs` with the new jsons. NOTE: usually this command is launched after the command `build:json` and after make some modifications on the json source files with some text editor
+
+```bash
+npm run-script build:db
 ```
 
 ## [Changelog](./CHANGELOG.md)
@@ -99,13 +123,23 @@ Any issues, bugs, or feature requests are always welcome to be reported directly
 
 ## License
 
-This module includes icon artwork licensed from [Humble Bundle](https://support.humblebundle.com/hc/en-us/articles/360046217533) 
+This module includes icon artwork licensed from [Humble Bundle](https://support.humblebundle.com/hc/en-us/articles/360046217533)
 
 These icons are packaged with and provided for use in this module and may not be redistributed or used outside of this module except as permitted by a separate license agreement between the original copyright holder of these icons. These license terms apply to all icons within this directory.
 
-==============================================
-Humble 7000 Game Dev ICONS Bundle EULA
-==============================================
+Assets in this bundle include an Extended License that allows you to develop your own digital or physical card games. For more details, please refer to the full terms.
+
+
+### OpenGameArt.Org Painterly Spell Icons
+
+J. W. Bjerk (eleazzaar) -- www.jwbjerk.com/art -- find this and other open art at: http://opengameart.org
+
+https://opengameart.org/content/painterly-spell-icons-part-1
+https://opengameart.org/content/painterly-spell-icons-part-2
+https://opengameart.org/content/painterly-spell-icons-part-3
+https://opengameart.org/content/painterly-spell-icons-part-4
+
+### Humble 7000 Game Dev ICONS Bundle EULA
 
 https://support.humblebundle.com/hc/en-us/articles/360046217533
 
@@ -121,6 +155,16 @@ https://support.humblebundle.com/hc/en-us/articles/360046217533
 - Extract the Licensed Asset or Derivative Works and use them outside of the relevant End Product.
 - Use or/and incorporated the Licensed Asset or Derivative Works into a logo, service mark or trademark.
 - Purchaser may not use the Licensed Asset or Derivative Works in End Product containing models and/or property in a manner that is unlawful, harmful, abusive, racially or ethnically offensive, defamatory, deceptive, infringing, invasive of personal privacy or publicity rights, harassing, humiliating to other people, libelous, obscene, threatening, profane, or promotes racism, bigotry, hatred or physical harm of any kind against any group or individual, or is otherwise objectionable.
+
+### SVG Icons from Game-Icons.net
+
+The dnd5e system for Foundry Virtual Tabletop includes icon artwork licensed from Game-icons.net under the Creative Commons license. These icons are packaged with and provided for use in the dnd5e system under their respective licenses, as noted below.
+
+/svg/hit-points.svg - "Heart plus" by Zeromancer under CC0 PDD
+/svg/item-grant.svg - "White book" by Willdabeast under CC BY 3.0
+/svg/scale-value.svg - "Dice target" by Delapouite under CC BY 3.0
+
+### CODE
 
 This package is under an [MIT license](LICENSE) and the [Foundry Virtual Tabletop Limited License Agreement for module development](https://foundryvtt.com/article/license/).
 
