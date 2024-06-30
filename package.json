@@ -27,7 +27,7 @@
 	},
 	"devDependencies": {
 		"@babel/eslint-parser": "^7.23.10",
-		"@foundryvtt/foundryvtt-cli": "^1.0.2",
+		"@foundryvtt/foundryvtt-cli": "^1.0.3",
 		"@rollup/plugin-node-resolve": "^15.2.3",
 		"@typescript-eslint/eslint-plugin": "^7.1.1",
 		"@typhonjs-config/eslint-config": "^0.6.3",
@@ -60,9 +60,9 @@
 	],
 	"scripts": {
 		"build": "node ./utils/clean.mjs && vite build",
-        "build:watch": "node ./utils/clean.mjs && vite build --watch --mode development",
-        "build:watchWithDb": "node ./utils/clean.mjs && npm run build:db && vite build --watch --mode development",
-        "dev": "vite serve",
+		"build:watch": "node ./utils/clean.mjs && vite build --watch --mode development",
+		"build:watchWithDb": "node ./utils/clean.mjs && npm run build:db && vite build --watch --mode development",
+		"dev": "vite serve",
 		"build:clean": "node ./utils/packs.mjs package clean",
 		"build:db": "node ./utils/packs.mjs package pack",
 		"build:json": "node ./utils/packs.mjs package unpack",

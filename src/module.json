@@ -1,79 +1,64 @@
 {
-	"id": "additional-icons",
-	"title": "Additional Icons",
-	"description": "Additional Icons For FoundryVTT",
-	"version": "1.5.2",
-  "authors": [],
-  "type": "module",
-  "socket": true,
-  "includes": [
-    "./assets/**",
-    "./lang/**",
-    "./languages/**",
-    "./scripts/**",
-    "./styles/**",
-    "./templates/**",
-    "./module.json",
-    "./README.md",
-    "./icons/**",
-    "./packs/**"
-  ],
-  "media": [
-    {
-      "type": "icon",
-      "location": ""
+    "id": "additional-icons",
+    "title": "Additional Icons",
+    "description": "Additional Icons For FoundryVTT",
+    "version": "12.0.1",
+    "authors": [],
+    "socket": true,
+    "media": [
+        {
+            "type": "icon",
+            "location": ""
+        },
+        {
+            "type": "cover",
+            "location": ""
+        },
+        {
+            "type": "screenshot",
+            "location": ""
+        }
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        }
+    ],
+    "packs": [
+        {
+            "name": "additional-icons",
+            "label": "Additional Icons",
+            "path": "packs/additional-icons",
+            "type": "Item",
+            "ownership": {
+                "PLAYER": "NONE",
+                "TRUSTED": "NONE",
+                "ASSISTANT": "OWNER"
+            },
+            "module": "additional-icons",
+            "flags": {},
+            "system": "dnd5e"
+        }
+    ],
+    "scripts": [],
+    "esmodules": ["module.js"],
+    "styles": [],
+    "compatibility": {
+        "minimum": 11,
+        "verified": 12,
+        "maximum": 12
     },
-    {
-      "type": "cover",
-      "location": ""
-    },
-    {
-      "type": "screenshot",
-      "location": ""
+    "url": "https://github.com/p4535992/foundryvtt-additional-icons",
+    "manifest": "https://github.com/p4535992/foundryvtt-additional-icons/releases/download/12.0.1/module.json",
+    "download": "https://github.com/p4535992/foundryvtt-additional-icons/releases/download/12.0.1/module.zip",
+    "readme": "https://github.com/p4535992/foundryvtt-additional-icons/blob/master/README.md",
+    "changelog": "https://github.com/p4535992/foundryvtt-additional-icons/blob/master/CHANGELOG.md",
+    "bugs": "https://github.com/p4535992/foundryvtt-additional-icons/issues",
+    "relationships": {
+        "systems": [],
+        "requires": [],
+        "conflicts": []
     }
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "languages/en.json"
-    }
-  ],
-  "packs": [
-    {
-      "name": "additional-icons",
-      "label": "Additional Icons",
-      "path": "packs/additional-icons",
-      "type": "Item",
-      "ownership": {
-        "PLAYER": "NONE",
-        "TRUSTED": "NONE",
-        "ASSISTANT": "OWNER"
-      },
-      "module": "additional-icons",
-      "flags": {},
-      "system": "dnd5e"
-    }
-  ],
-  "systems": [],
-  "scripts": [],
-  "esmodules": ["module.js"],
-  "styles": [],
-  "compatibility": {
-    "minimum": 11,
-    "verified": 11,
-    "maximum": 11
-  },
-  "url": "https://github.com/p4535992/foundryvtt-additional-icons",
-  "manifest": "https://github.com/p4535992/foundryvtt-additional-icons/releases/download/1.5.2/module.json",
-  "download": "https://github.com/p4535992/foundryvtt-additional-icons/releases/download/1.5.2/module.zip",
-  "readme": "https://github.com/p4535992/foundryvtt-additional-icons/blob/master/README.md",
-  "changelog": "https://github.com/p4535992/foundryvtt-additional-icons/blob/master/CHANGELOG.md",
-  "bugs": "https://github.com/p4535992/foundryvtt-additional-icons/issues",
-  "allowBugReporter": true,
-  "relationships": {
-    "systems": [],
-    "requires": [],
-    "conflicts": []
-  }
 }
