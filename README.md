@@ -130,7 +130,7 @@ Assets in this bundle include an Extended License that allows you to develop you
 ### 
 
 https://marketplace-website-node-launcher-prod.ol.epicgames.com/ue/marketplace/en-US/profile/KatGrabowska?count=20&sortBy=effectiveDate&sortDir=DESC&start=0
-
+https://marketplace-website-node-launcher-prod.ol.epicgames.com/ue/marketplace/en-US/product/realistic-magic-spell-icons-mega-bundle1
 
 ### OpenGameArt.Org Painterly Spell Icons
 
