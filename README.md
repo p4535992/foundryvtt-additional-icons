@@ -123,11 +123,13 @@ Any issues, bugs, or feature requests are always welcome to be reported directly
 
 ## License
 
-This module includes icon artwork licensed from [Humble Bundle](https://support.humblebundle.com/hc/en-us/articles/360046217533)
-
 These icons are packaged with and provided for use in this module and may not be redistributed or used outside of this module except as permitted by a separate license agreement between the original copyright holder of these icons. These license terms apply to all icons within this directory.
 
 Assets in this bundle include an Extended License that allows you to develop your own digital or physical card games. For more details, please refer to the full terms.
+
+### 
+
+https://marketplace-website-node-launcher-prod.ol.epicgames.com/ue/marketplace/en-US/profile/KatGrabowska?count=20&sortBy=effectiveDate&sortDir=DESC&start=0
 
 
 ### OpenGameArt.Org Painterly Spell Icons
@@ -140,6 +142,8 @@ https://opengameart.org/content/painterly-spell-icons-part-3
 https://opengameart.org/content/painterly-spell-icons-part-4
 
 ### Humble 7000 Game Dev ICONS Bundle EULA
+
+This module includes icon artwork licensed from [Humble Bundle](https://support.humblebundle.com/hc/en-us/articles/360046217533)
 
 https://support.humblebundle.com/hc/en-us/articles/360046217533
 
